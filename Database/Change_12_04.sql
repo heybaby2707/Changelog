@@ -178,3 +178,15 @@ UPDATE `quest_template` SET `Method`='0' WHERE `entry`='9303';
 UPDATE `quest_template` SET `Method`='0' WHERE `entry`='9328';
 -- Auto complete Quest: Echeyakee
 UPDATE `quest_template` SET `Method`='0' WHERE `entry`='881';
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\23-04-2012//////////////////////////////
+-- Update damage Beauty - Blackrock Caverns
+UPDATE `creature_template` SET `dmg_multiplier`='9.5' WHERE `entry`='39700';
+-- Update damage Ascendant Lord Obsidius - Blackrock Caverns
+UPDATE `creature_template` SET `dmg_multiplier`='9.5' WHERE `entry`='39705';
+-- Update damage Corla, Herald of Twilight - Blackrock Caverns
+UPDATE `creature_template` SET `dmg_multiplier`='9.5' WHERE `entry`='39679';
+-- Auto complete Quest: Ashes to Ashes
+UPDATE `quest_template` SET `Method`='0' WHERE `entry`='26010';
+-- Auto complete Quest: Dream of a Better Tomorrow
+UPDATE `quest_template` SET `Method`='0' WHERE `entry`='26026';

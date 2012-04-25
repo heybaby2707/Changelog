@@ -186,7 +186,17 @@ UPDATE `creature_template` SET `dmg_multiplier`='9.5' WHERE `entry`='39700';
 UPDATE `creature_template` SET `dmg_multiplier`='9.5' WHERE `entry`='39705';
 -- Update damage Corla, Herald of Twilight - Blackrock Caverns
 UPDATE `creature_template` SET `dmg_multiplier`='9.5' WHERE `entry`='39679';
+-- Update damage Corla, Herald of Twilight - Blackrock Caverns
+UPDATE `creature_template` SET `dmg_multiplier`='9.5' WHERE `entry`='39698';
 -- Auto complete Quest: Ashes to Ashes
 UPDATE `quest_template` SET `Method`='0' WHERE `entry`='26010';
 -- Auto complete Quest: Dream of a Better Tomorrow
 UPDATE `quest_template` SET `Method`='0' WHERE `entry`='26026';
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\24-04-2012//////////////////////////////
+-- Auto complete Quest: Gasping for Breath
+UPDATE `quest_template` SET `Method`='0' WHERE `entry`='14395';
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\25-04-2012//////////////////////////////
+-- Auto complete Quest: Proving Pit
+UPDATE `quest_template` SET `Method`='0' WHERE `entry`='24780';

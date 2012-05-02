@@ -200,3 +200,9 @@ UPDATE `quest_template` SET `Method`='0' WHERE `entry`='14395';
 -- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\25-04-2012//////////////////////////////
 -- Auto complete Quest: Proving Pit
 UPDATE `quest_template` SET `Method`='0' WHERE `entry`='24780';
+-- Auto complete Quest: Break the Unbreakable
+UPDATE `quest_template` SET `Method`='0' WHERE `entry`='28113';
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\28-04-2012//////////////////////////////
+-- Auto complete Quest: It's Raid Night Every Night
+UPDATE `quest_template` SET `Method`='0' WHERE `entry`='25932';

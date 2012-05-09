@@ -27,3 +27,15 @@ UPDATE `creature_loot_template` SET `groupid`='1' WHERE `entry`='48784';
 DELETE FROM `disables` WHERE `entry`=670;
 -- Auto complete Quest: A bird in hand
 UPDATE `quest_template` SET `Method`='0' WHERE `entry`='25731';
+-- Auto complete Quest: Nature's Reprisal
+UPDATE `quest_template` SET `Method`='0' WHERE `entry`='13946';
+-- Fix item
+UPDATE `item_template` SET `spellid_1`='0' WHERE `entry`='46716';
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\02-05-2012//////////////////////////////
+-- Auto complete Quest: Blessings of the Ancients
+UPDATE `quest_template` SET `Method`='0' WHERE `entry`='9785';
+
+-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\09-05-2012//////////////////////////////
+-- Auto complete Quest: The Plains of Nasam
+UPDATE `quest_template` SET `Method`='0' WHERE `entry`='11652';
